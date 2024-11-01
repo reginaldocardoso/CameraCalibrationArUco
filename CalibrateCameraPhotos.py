@@ -40,7 +40,7 @@ image_points = []
   
 # def main():   
 # Obter o caminho do arquivo para imagens no diretório atual
-images = glob.glob('ImagemCalibration\*.jpg')
+images = glob.glob('ImagemCameraCalibration\*.jpg')
 
 # Examine cada imagem do tabuleiro de xadrez, uma a uma
 for image_file in images:
