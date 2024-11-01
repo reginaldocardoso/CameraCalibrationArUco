@@ -1,2 +1,4 @@
-# CameraCalibrationArUco
- ArUco and Calibration Camera
+# **Repositório para Identificação da Câmera**
+- arquivo: CalibrateCameraPhotos.py --> Gera a matriz de transformação do plano de imagem para o plano real, baseado nas imagens (fotos) presentes na pasta [ImagemCameraCalibration](https://github.com/reginaldocardoso/CameraCalibrationArUco/tree/main/ImagemCameraCalibration). Para calibrar a sua câmera tirar fotos com ela e não usar estas.
+- O Tabuleiro de xadrez pode ser baixado [Aqui](https://github.com/opencv/opencv/blob/4.x/doc/pattern.png) ou o tabuleiro de circulos [Aqui](https://github.com/opencv/opencv/blob/4.x/doc/acircles_pattern.png);
+- Para calibrar a camera com video em tempo real (intenda como rodar o programa e mostrar o tabuleiro para a câmera). Abra a pasta [VideoCalibration](https://github.com/reginaldocardoso/CameraCalibrationArUco/tree/main/VideoCameraCalibration) e execute o arquivo: CameraCalibration.py com o tabulerio de xadrez em mãos;
