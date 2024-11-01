@@ -5,5 +5,5 @@ to generate various calibration svg calibration patterns.
 
 # **Para gerar ArUco marcadores**
 '''bash
-python opencv_generate_aruco.py --id 24 --type DICT_5X5_100 --output tags/DICT_5X5_100_id24.png
+python ArUco_generate.py --id 25 --type DICT_5X5_100   --output GeraChessBoard/DICT_5X5_100_id25.png
 '''
