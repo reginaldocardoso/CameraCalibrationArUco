@@ -79,7 +79,7 @@ cv_file.write('D', dist)
 cv_file.release()
 
 # Carregar os parâmetros do arquivo salvo
-cv_file = cv2.FileStorage('calibration_chessboard.yaml', cv2.FILE_STORAGE_READ) 
+cv_file = cv2.FileStorage('PhotoCalibration.yaml', cv2.FILE_STORAGE_READ) 
 mtx = cv_file.getNode('K').mat()
 dst = cv_file.getNode('D').mat()
 cv_file.release()
