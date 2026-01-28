@@ -3,6 +3,9 @@ Welcome to the Camera Calibration Program!
   
 This program:
   - Performs camera calibration using a chessboard.
+
+  py -3.11 -m venv .venv
+  .\.venv\Scripts\activate.bat
 '''
  
 from __future__ import print_function 
